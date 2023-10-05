@@ -38,7 +38,7 @@ This code snippet executes the following tasks:
 
 3. Verify if the group that must be created already exists based on the `name` using the `Get-ADgroup` cmdlet.
 
-4. If the group does not exist, a new group is created using the `New-ADgroup` cmdlet. The hash table called `$formObject` is passed to the `New-ADgroup` cmdlet using the `@` symbol in front of the hash table name.
+4. If the group does not exist, a new group is created using the `New-ADgroup` cmdlet. The hash table called `$formObject` is passed to the `New-ADgroup` cmdlet using the `@` symbol in front of the hash table name.  [See the Microsoft Docs page](https://learn.microsoft.com/en-us/powershell/module/activedirectory/new-adgroup?view=windowsserver2022-ps)
 
 >
 
